@@ -125,8 +125,9 @@
     addContents();
     addCopyButtons();
     if (scrollToHash && location.hash) {
+      // Jump, as the browser would have on load; smooth scrolling is for clicks within the page.
       var target = document.getElementById(location.hash.slice(1));
-      if (target) target.scrollIntoView();
+      if (target) target.scrollIntoView({ behavior: 'instant' });
     }
   }
 
