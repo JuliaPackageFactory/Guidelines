@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these guidelines, please cite them as below."
+type: dataset
+title: "JuliaPackageFactory Guidelines"
+abstract: "Development guidelines of JuliaPackageFactory. Scientific Software Development Guidelines: practices for research software, distilled from 26 published sources and cited clause by clause. Julia Package Development Guidelines: how to set up, develop, and release a Julia package."
+authors:
+  - family-names: "Ohno"
+    given-names: "Shuhei"
+    orcid: "https://orcid.org/0009-0001-5222-9726"
+version: "0.2.0"
+date-released: "2026-11-09"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/JuliaPackageFactory/Guidelines"
+url: "https://juliapackagefactory.github.io/Guidelines/"
+keywords:
+  - research software
+  - scientific computing
+  - software engineering guidelines
+  - reproducibility
+  - julia
